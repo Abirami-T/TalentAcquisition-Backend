@@ -22,9 +22,9 @@ public class CandidateService {
 
     // Cloudinary configuration (replace with your Cloudinary details)
     private Cloudinary cloudinary = new Cloudinary(ObjectUtils.asMap(
-            "cloud_name", "dadpjbuix",
-            "api_key", "887486484443372",
-            "api_secret", "MgsDLXdE9xs_dEFdJddqJdf7ySE"));
+            "cloud_name", "****",
+            "api_key", "******",
+            "api_secret", "*******"));
 
     public Candidate addCandidate(String name, String rollNumber, String email, double cgpa, MultipartFile imageFile) throws IOException {
         // Upload image to Cloudinary and get URL
